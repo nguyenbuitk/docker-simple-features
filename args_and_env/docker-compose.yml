@@ -1,0 +1,11 @@
+version: '2.2'
+
+services:
+  test:
+    build:
+      context: ./
+      dockerfile: dockerfile
+      args:
+        some_variable_name: buinguyen
+    environment:
+      - env_var_name=another_value

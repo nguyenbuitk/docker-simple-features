@@ -1,0 +1,16 @@
+FROM debian:wheezy
+# ARG some_variable_name=default_value
+
+# RUN echo "dood afternoon, $some_variable_name!"
+# or with ${some_variable_name}
+
+# ENV foo /bar
+# # or ENV foo=/bar
+# ADD . $foo
+# # or ADD . ${foo}
+# # translates to: ADD . /bar
+
+# CMD ["echo",  "Hello world from docker file"]
+
+ENTRYPOINT ["/bin/ping"]
+CMD ["localhost"]

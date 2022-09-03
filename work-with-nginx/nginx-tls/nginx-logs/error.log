@@ -1,0 +1,519 @@
+2022/04/21 02:12:36 [notice] 1#1: using the "epoll" event method
+2022/04/21 02:12:36 [notice] 1#1: nginx/1.21.6
+2022/04/21 02:12:36 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 02:12:36 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 02:12:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 02:12:36 [notice] 1#1: start worker processes
+2022/04/21 02:12:36 [notice] 1#1: start worker process 20
+2022/04/21 02:21:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 02:21:10 [notice] 20#20: gracefully shutting down
+2022/04/21 02:21:10 [notice] 20#20: exiting
+2022/04/21 02:21:10 [notice] 20#20: exit
+2022/04/21 02:21:10 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 02:21:10 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 02:21:10 [notice] 1#1: exit
+2022/04/21 02:21:14 [notice] 1#1: using the "epoll" event method
+2022/04/21 02:21:14 [notice] 1#1: nginx/1.21.6
+2022/04/21 02:21:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 02:21:14 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 02:21:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 02:21:14 [notice] 1#1: start worker processes
+2022/04/21 02:21:14 [notice] 1#1: start worker process 20
+2022/04/21 02:25:35 [error] 20#20: *7 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.70.186, server: , request: "GET /favicon.ico HTTP/1.1", host: "mydomainbnguyen.com", referrer: "http://mydomainbnguyen.com/"
+2022/04/21 02:25:47 [error] 20#20: *14 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.70.186, server: , request: "GET /favicon.ico HTTP/2.0", host: "mydomainbnguyen.com", referrer: "https://mydomainbnguyen.com/"
+2022/04/21 02:33:00 [error] 20#20: *20 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.70.186, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.70.188", referrer: "http://192.168.70.188/"
+2022/04/21 02:33:07 [error] 20#20: *27 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.70.186, server: , request: "GET /favicon.ico HTTP/2.0", host: "192.168.70.188", referrer: "https://192.168.70.188/"
+2022/04/21 03:10:51 [error] 20#20: *64 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.70.186, server: , request: "GET /favicon.ico HTTP/2.0", host: "mydomainbnguyen.com", referrer: "https://mydomainbnguyen.com/"
+2022/04/21 03:17:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 03:17:29 [notice] 20#20: gracefully shutting down
+2022/04/21 03:17:29 [notice] 20#20: exiting
+2022/04/21 03:17:29 [notice] 20#20: exit
+2022/04/21 03:17:29 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 03:17:29 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 03:17:29 [notice] 1#1: exit
+2022/04/21 03:18:06 [notice] 1#1: using the "epoll" event method
+2022/04/21 03:18:06 [notice] 1#1: nginx/1.21.6
+2022/04/21 03:18:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 03:18:06 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 03:18:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 03:18:06 [notice] 1#1: start worker processes
+2022/04/21 03:18:06 [notice] 1#1: start worker process 20
+2022/04/21 03:21:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 03:21:57 [notice] 20#20: gracefully shutting down
+2022/04/21 03:21:57 [notice] 20#20: exiting
+2022/04/21 03:21:57 [notice] 20#20: exit
+2022/04/21 03:21:57 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 03:21:57 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 03:21:57 [notice] 1#1: exit
+2022/04/21 03:22:02 [notice] 1#1: using the "epoll" event method
+2022/04/21 03:22:02 [notice] 1#1: nginx/1.21.6
+2022/04/21 03:22:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 03:22:02 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 03:22:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 03:22:02 [notice] 1#1: start worker processes
+2022/04/21 03:22:02 [notice] 1#1: start worker process 22
+2022/04/21 03:26:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 03:26:03 [notice] 22#22: gracefully shutting down
+2022/04/21 03:26:03 [notice] 22#22: exiting
+2022/04/21 03:26:03 [notice] 22#22: exit
+2022/04/21 03:26:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/04/21 03:26:03 [notice] 1#1: worker process 22 exited with code 0
+2022/04/21 03:26:03 [notice] 1#1: exit
+2022/04/21 03:26:07 [notice] 1#1: using the "epoll" event method
+2022/04/21 03:26:07 [notice] 1#1: nginx/1.21.6
+2022/04/21 03:26:07 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 03:26:07 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 03:26:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 03:26:07 [notice] 1#1: start worker processes
+2022/04/21 03:26:07 [notice] 1#1: start worker process 20
+2022/04/21 03:31:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 03:31:09 [notice] 20#20: gracefully shutting down
+2022/04/21 03:31:09 [notice] 20#20: exiting
+2022/04/21 03:31:09 [notice] 20#20: exit
+2022/04/21 03:31:09 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 03:31:09 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 03:31:09 [notice] 1#1: exit
+2022/04/21 03:31:11 [notice] 1#1: using the "epoll" event method
+2022/04/21 03:31:11 [notice] 1#1: nginx/1.21.6
+2022/04/21 03:31:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 03:31:11 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 03:31:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 03:31:11 [notice] 1#1: start worker processes
+2022/04/21 03:31:11 [notice] 1#1: start worker process 20
+2022/04/21 03:31:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 03:31:12 [notice] 20#20: gracefully shutting down
+2022/04/21 03:31:12 [notice] 20#20: exiting
+2022/04/21 03:31:12 [notice] 20#20: exit
+2022/04/21 03:31:12 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 03:31:12 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 03:31:12 [notice] 1#1: exit
+2022/04/21 03:31:13 [notice] 1#1: using the "epoll" event method
+2022/04/21 03:31:13 [notice] 1#1: nginx/1.21.6
+2022/04/21 03:31:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 03:31:13 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 03:31:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 03:31:13 [notice] 1#1: start worker processes
+2022/04/21 03:31:13 [notice] 1#1: start worker process 20
+2022/04/21 03:34:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 03:34:31 [notice] 20#20: gracefully shutting down
+2022/04/21 03:34:31 [notice] 20#20: exiting
+2022/04/21 03:34:31 [notice] 20#20: exit
+2022/04/21 03:34:31 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 03:34:31 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 03:34:31 [notice] 1#1: exit
+2022/04/21 03:34:34 [notice] 1#1: using the "epoll" event method
+2022/04/21 03:34:34 [notice] 1#1: nginx/1.21.6
+2022/04/21 03:34:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 03:34:34 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 03:34:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 03:34:34 [notice] 1#1: start worker processes
+2022/04/21 03:34:34 [notice] 1#1: start worker process 20
+2022/04/21 03:54:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 03:54:45 [notice] 20#20: gracefully shutting down
+2022/04/21 03:54:45 [notice] 20#20: exiting
+2022/04/21 03:54:45 [notice] 20#20: exit
+2022/04/21 03:54:45 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 03:54:45 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 03:54:45 [notice] 1#1: exit
+2022/04/21 03:54:51 [notice] 1#1: using the "epoll" event method
+2022/04/21 03:54:51 [notice] 1#1: nginx/1.21.6
+2022/04/21 03:54:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 03:54:51 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 03:54:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 03:54:51 [notice] 1#1: start worker processes
+2022/04/21 03:54:51 [notice] 1#1: start worker process 20
+2022/04/21 04:18:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 04:18:34 [notice] 20#20: gracefully shutting down
+2022/04/21 04:18:34 [notice] 20#20: exiting
+2022/04/21 04:18:34 [notice] 20#20: exit
+2022/04/21 04:18:34 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 04:18:34 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 04:18:34 [notice] 1#1: exit
+2022/04/21 04:18:40 [notice] 1#1: using the "epoll" event method
+2022/04/21 04:18:40 [notice] 1#1: nginx/1.21.6
+2022/04/21 04:18:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 04:18:40 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 04:18:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 04:18:40 [notice] 1#1: start worker processes
+2022/04/21 04:18:40 [notice] 1#1: start worker process 20
+2022/04/21 04:22:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/21 04:22:07 [notice] 20#20: gracefully shutting down
+2022/04/21 04:22:07 [notice] 20#20: exiting
+2022/04/21 04:22:07 [notice] 20#20: exit
+2022/04/21 04:22:07 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/21 04:22:07 [notice] 1#1: worker process 20 exited with code 0
+2022/04/21 04:22:07 [notice] 1#1: exit
+2022/04/21 04:22:13 [notice] 1#1: using the "epoll" event method
+2022/04/21 04:22:13 [notice] 1#1: nginx/1.21.6
+2022/04/21 04:22:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/21 04:22:13 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/21 04:22:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/21 04:22:13 [notice] 1#1: start worker processes
+2022/04/21 04:22:13 [notice] 1#1: start worker process 20
+2022/04/21 04:40:29 [error] 20#20: *23 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.70.186, server: , request: "GET /favicon.ico HTTP/2.0", host: "domainbnguyen.com", referrer: "https://domainbnguyen.com/"
+2022/04/22 02:18:23 [notice] 1#1: using the "epoll" event method
+2022/04/22 02:18:23 [notice] 1#1: nginx/1.21.6
+2022/04/22 02:18:23 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 02:18:23 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 02:18:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 02:18:23 [notice] 1#1: start worker processes
+2022/04/22 02:18:23 [notice] 1#1: start worker process 20
+2022/04/22 02:25:53 [notice] 32#32: signal process started
+2022/04/22 02:25:53 [notice] 1#1: signal 1 (SIGHUP) received from 32, reconfiguring
+2022/04/22 02:25:53 [notice] 1#1: reconfiguring
+2022/04/22 02:25:53 [notice] 1#1: using the "epoll" event method
+2022/04/22 02:25:53 [notice] 1#1: start worker processes
+2022/04/22 02:25:53 [notice] 1#1: start worker process 33
+2022/04/22 02:25:53 [notice] 20#20: gracefully shutting down
+2022/04/22 02:25:53 [notice] 20#20: exiting
+2022/04/22 02:25:53 [notice] 20#20: exit
+2022/04/22 02:25:53 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 02:25:53 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 02:25:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/22 02:26:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 02:26:04 [notice] 33#33: gracefully shutting down
+2022/04/22 02:26:04 [notice] 33#33: exiting
+2022/04/22 02:26:04 [notice] 33#33: exit
+2022/04/22 02:26:04 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/04/22 02:26:04 [notice] 1#1: worker process 33 exited with code 0
+2022/04/22 02:26:04 [notice] 1#1: exit
+2022/04/22 02:26:12 [notice] 1#1: using the "epoll" event method
+2022/04/22 02:26:12 [notice] 1#1: nginx/1.21.6
+2022/04/22 02:26:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 02:26:12 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 02:26:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 02:26:12 [notice] 1#1: start worker processes
+2022/04/22 02:26:12 [notice] 1#1: start worker process 20
+2022/04/22 02:33:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 02:33:12 [notice] 20#20: gracefully shutting down
+2022/04/22 02:33:12 [notice] 20#20: exiting
+2022/04/22 02:33:12 [notice] 20#20: exit
+2022/04/22 02:33:12 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 02:33:12 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 02:33:12 [notice] 1#1: exit
+2022/04/22 02:33:52 [notice] 1#1: using the "epoll" event method
+2022/04/22 02:33:52 [notice] 1#1: nginx/1.21.6
+2022/04/22 02:33:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 02:33:52 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 02:33:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 02:33:52 [notice] 1#1: start worker processes
+2022/04/22 02:33:52 [notice] 1#1: start worker process 20
+2022/04/22 02:34:50 [notice] 26#26: signal process started
+2022/04/22 02:34:50 [notice] 1#1: signal 1 (SIGHUP) received from 26, reconfiguring
+2022/04/22 02:34:50 [notice] 1#1: reconfiguring
+2022/04/22 02:34:50 [notice] 1#1: using the "epoll" event method
+2022/04/22 02:34:50 [notice] 1#1: start worker processes
+2022/04/22 02:34:50 [notice] 1#1: start worker process 27
+2022/04/22 02:34:50 [notice] 20#20: gracefully shutting down
+2022/04/22 02:34:50 [notice] 20#20: exiting
+2022/04/22 02:34:50 [notice] 20#20: exit
+2022/04/22 02:34:50 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 02:34:50 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 02:34:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/22 02:37:48 [emerg] 29#29: cannot load certificate "/etc/ssl/certs/nginx-selfsigned.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/nginx-selfsigned.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2022/04/22 02:39:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 02:39:49 [notice] 27#27: gracefully shutting down
+2022/04/22 02:39:49 [notice] 27#27: exiting
+2022/04/22 02:39:49 [notice] 27#27: exit
+2022/04/22 02:39:49 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/04/22 02:39:49 [notice] 1#1: worker process 27 exited with code 0
+2022/04/22 02:39:49 [notice] 1#1: exit
+2022/04/22 02:51:46 [emerg] 1#1: cannot load certificate key "/etc/ssl/private/nginx-selfsigned.key": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/private/nginx-selfsigned.key','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2022/04/22 02:52:15 [emerg] 1#1: cannot load certificate key "/etc/ssl/private/nginx-selfsigned.key": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/private/nginx-selfsigned.key','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2022/04/22 02:52:40 [notice] 1#1: using the "epoll" event method
+2022/04/22 02:52:40 [notice] 1#1: nginx/1.21.6
+2022/04/22 02:52:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 02:52:40 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 02:52:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 02:52:40 [notice] 1#1: start worker processes
+2022/04/22 02:52:40 [notice] 1#1: start worker process 20
+2022/04/22 03:01:01 [notice] 1#1: using the "epoll" event method
+2022/04/22 03:01:01 [notice] 1#1: nginx/1.21.6
+2022/04/22 03:01:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 03:01:01 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 03:01:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 03:01:01 [notice] 1#1: start worker processes
+2022/04/22 03:01:01 [notice] 1#1: start worker process 20
+2022/04/22 03:26:44 [notice] 1#1: using the "epoll" event method
+2022/04/22 03:26:44 [notice] 1#1: nginx/1.21.6
+2022/04/22 03:26:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 03:26:44 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 03:26:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 03:26:44 [notice] 1#1: start worker processes
+2022/04/22 03:26:44 [notice] 1#1: start worker process 20
+2022/04/22 03:27:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 03:27:14 [notice] 20#20: gracefully shutting down
+2022/04/22 03:27:14 [notice] 20#20: exiting
+2022/04/22 03:27:14 [notice] 20#20: exit
+2022/04/22 03:27:14 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 03:27:14 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 03:27:14 [notice] 1#1: exit
+2022/04/22 03:30:33 [emerg] 1#1: SSL_CTX_load_verify_locations("/etc/nginx/ssl/fullchain.pem") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file error:0B084002:x509 certificate routines:X509_load_cert_crl_file:system lib)
+2022/04/22 03:30:49 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/ssl/certs/nginx-selfsigned.crt"
+2022/04/22 03:30:49 [notice] 1#1: using the "epoll" event method
+2022/04/22 03:30:49 [notice] 1#1: nginx/1.21.6
+2022/04/22 03:30:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 03:30:49 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 03:30:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 03:30:49 [notice] 1#1: start worker processes
+2022/04/22 03:30:49 [notice] 1#1: start worker process 20
+2022/04/22 03:47:20 [warn] 26#26: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/ssl/certs/nginx-selfsigned.crt"
+2022/04/22 03:51:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 03:51:12 [notice] 20#20: gracefully shutting down
+2022/04/22 03:51:12 [notice] 20#20: exiting
+2022/04/22 03:51:12 [notice] 20#20: exit
+2022/04/22 03:51:12 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 03:51:12 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 03:51:12 [notice] 1#1: exit
+2022/04/22 03:51:15 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/ssl/certs/nginx-selfsigned.crt"
+2022/04/22 03:51:15 [notice] 1#1: using the "epoll" event method
+2022/04/22 03:51:15 [notice] 1#1: nginx/1.21.6
+2022/04/22 03:51:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 03:51:15 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 03:51:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 03:51:15 [notice] 1#1: start worker processes
+2022/04/22 03:51:15 [notice] 1#1: start worker process 20
+2022/04/22 03:56:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 03:56:42 [notice] 20#20: gracefully shutting down
+2022/04/22 03:56:42 [notice] 20#20: exiting
+2022/04/22 03:56:42 [notice] 20#20: exit
+2022/04/22 03:56:42 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 03:56:42 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 03:56:42 [notice] 1#1: exit
+2022/04/22 03:56:46 [notice] 1#1: using the "epoll" event method
+2022/04/22 03:56:46 [notice] 1#1: nginx/1.21.6
+2022/04/22 03:56:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 03:56:46 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 03:56:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 03:56:46 [notice] 1#1: start worker processes
+2022/04/22 03:56:46 [notice] 1#1: start worker process 20
+2022/04/22 04:11:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 04:11:32 [notice] 20#20: gracefully shutting down
+2022/04/22 04:11:32 [notice] 20#20: exiting
+2022/04/22 04:11:32 [notice] 20#20: exit
+2022/04/22 04:11:32 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 04:11:32 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 04:11:32 [notice] 1#1: exit
+2022/04/22 04:11:38 [notice] 1#1: using the "epoll" event method
+2022/04/22 04:11:38 [notice] 1#1: nginx/1.21.6
+2022/04/22 04:11:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 04:11:38 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 04:11:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 04:11:38 [notice] 1#1: start worker processes
+2022/04/22 04:11:38 [notice] 1#1: start worker process 20
+2022/04/22 04:18:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 04:18:42 [notice] 20#20: gracefully shutting down
+2022/04/22 04:18:42 [notice] 20#20: exiting
+2022/04/22 04:18:42 [notice] 20#20: exit
+2022/04/22 04:18:42 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 04:18:42 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 04:18:42 [notice] 1#1: exit
+2022/04/22 04:20:39 [notice] 1#1: using the "epoll" event method
+2022/04/22 04:20:39 [notice] 1#1: nginx/1.21.6
+2022/04/22 04:20:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 04:20:39 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 04:20:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 04:20:39 [notice] 1#1: start worker processes
+2022/04/22 04:20:39 [notice] 1#1: start worker process 20
+2022/04/22 04:22:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 04:22:17 [notice] 20#20: gracefully shutting down
+2022/04/22 04:22:17 [notice] 20#20: exiting
+2022/04/22 04:22:17 [notice] 20#20: exit
+2022/04/22 04:22:17 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 04:22:17 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 04:22:17 [notice] 1#1: exit
+2022/04/22 04:22:29 [notice] 1#1: using the "epoll" event method
+2022/04/22 04:22:29 [notice] 1#1: nginx/1.21.6
+2022/04/22 04:22:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 04:22:29 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 04:22:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 04:22:29 [notice] 1#1: start worker processes
+2022/04/22 04:22:29 [notice] 1#1: start worker process 20
+2022/04/22 04:55:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 04:55:04 [notice] 20#20: gracefully shutting down
+2022/04/22 04:55:04 [notice] 20#20: exiting
+2022/04/22 04:55:04 [notice] 20#20: exit
+2022/04/22 04:55:04 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 04:55:04 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 04:55:04 [notice] 1#1: exit
+2022/04/22 04:55:08 [notice] 1#1: using the "epoll" event method
+2022/04/22 04:55:08 [notice] 1#1: nginx/1.21.6
+2022/04/22 04:55:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 04:55:08 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 04:55:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 04:55:08 [notice] 1#1: start worker processes
+2022/04/22 04:55:08 [notice] 1#1: start worker process 20
+2022/04/22 07:39:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/22 07:39:43 [notice] 20#20: gracefully shutting down
+2022/04/22 07:39:43 [notice] 20#20: exiting
+2022/04/22 07:39:43 [notice] 20#20: exit
+2022/04/22 07:39:43 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 07:39:43 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 07:39:43 [notice] 1#1: exit
+2022/04/22 07:39:50 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/options-ssl-nginx.conf:16
+2022/04/22 07:40:11 [emerg] 1#1: BIO_new_file("/etc/ssl/dhparam.pem") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/dhparam.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2022/04/22 07:41:08 [emerg] 1#1: PEM_read_bio_DHparams("/etc/ssl/dhparam.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/04/22 07:43:04 [notice] 1#1: using the "epoll" event method
+2022/04/22 07:43:04 [notice] 1#1: nginx/1.21.6
+2022/04/22 07:43:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 07:43:04 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 07:43:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 07:43:04 [notice] 1#1: start worker processes
+2022/04/22 07:43:04 [notice] 1#1: start worker process 20
+2022/04/22 07:47:44 [notice] 1#1: using the "epoll" event method
+2022/04/22 07:47:44 [notice] 1#1: nginx/1.21.6
+2022/04/22 07:47:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/22 07:47:44 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/22 07:47:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/22 07:47:44 [notice] 1#1: start worker processes
+2022/04/22 07:47:44 [notice] 1#1: start worker process 20
+2022/04/22 07:52:21 [notice] 25#25: signal process started
+2022/04/22 07:52:21 [notice] 1#1: signal 1 (SIGHUP) received from 25, reconfiguring
+2022/04/22 07:52:21 [notice] 1#1: reconfiguring
+2022/04/22 07:52:21 [notice] 1#1: using the "epoll" event method
+2022/04/22 07:52:21 [notice] 1#1: start worker processes
+2022/04/22 07:52:21 [notice] 1#1: start worker process 26
+2022/04/22 07:52:21 [notice] 20#20: gracefully shutting down
+2022/04/22 07:52:21 [notice] 20#20: exiting
+2022/04/22 07:52:21 [notice] 20#20: exit
+2022/04/22 07:52:21 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/22 07:52:21 [notice] 1#1: worker process 20 exited with code 0
+2022/04/22 07:52:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/22 07:52:43 [notice] 27#27: signal process started
+2022/04/22 07:52:43 [notice] 1#1: signal 1 (SIGHUP) received from 27, reconfiguring
+2022/04/22 07:52:43 [notice] 1#1: reconfiguring
+2022/04/22 07:52:43 [notice] 1#1: using the "epoll" event method
+2022/04/22 07:52:43 [notice] 1#1: start worker processes
+2022/04/22 07:52:43 [notice] 1#1: start worker process 28
+2022/04/22 07:52:43 [notice] 26#26: gracefully shutting down
+2022/04/22 07:52:43 [notice] 26#26: exiting
+2022/04/22 07:52:43 [notice] 26#26: exit
+2022/04/22 07:52:43 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/04/22 07:52:43 [notice] 1#1: worker process 26 exited with code 0
+2022/04/22 07:52:43 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/22 08:02:56 [notice] 29#29: signal process started
+2022/04/22 08:02:56 [notice] 1#1: signal 1 (SIGHUP) received from 29, reconfiguring
+2022/04/22 08:02:56 [notice] 1#1: reconfiguring
+2022/04/22 08:02:56 [notice] 1#1: using the "epoll" event method
+2022/04/22 08:02:56 [notice] 1#1: start worker processes
+2022/04/22 08:02:56 [notice] 1#1: start worker process 30
+2022/04/22 08:02:56 [notice] 28#28: gracefully shutting down
+2022/04/22 08:02:56 [notice] 28#28: exiting
+2022/04/22 08:02:56 [notice] 28#28: exit
+2022/04/22 08:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/04/22 08:02:56 [notice] 1#1: worker process 28 exited with code 0
+2022/04/22 08:02:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/25 02:25:43 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:25:43 [notice] 1#1: nginx/1.21.6
+2022/04/25 02:25:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/25 02:25:43 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/25 02:25:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/25 02:25:43 [notice] 1#1: start worker processes
+2022/04/25 02:25:43 [notice] 1#1: start worker process 20
+2022/04/25 02:28:36 [notice] 46#46: signal process started
+2022/04/25 02:28:36 [notice] 1#1: signal 1 (SIGHUP) received from 46, reconfiguring
+2022/04/25 02:28:36 [notice] 1#1: reconfiguring
+2022/04/25 02:28:36 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:28:36 [notice] 1#1: start worker processes
+2022/04/25 02:28:36 [notice] 1#1: start worker process 47
+2022/04/25 02:28:37 [notice] 20#20: gracefully shutting down
+2022/04/25 02:28:37 [notice] 20#20: exiting
+2022/04/25 02:28:37 [notice] 20#20: exit
+2022/04/25 02:28:37 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/25 02:28:37 [notice] 1#1: worker process 20 exited with code 0
+2022/04/25 02:28:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/25 02:29:33 [notice] 50#50: signal process started
+2022/04/25 02:29:33 [notice] 1#1: signal 1 (SIGHUP) received from 50, reconfiguring
+2022/04/25 02:29:33 [notice] 1#1: reconfiguring
+2022/04/25 02:29:33 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:29:33 [notice] 1#1: start worker processes
+2022/04/25 02:29:33 [notice] 1#1: start worker process 51
+2022/04/25 02:29:33 [notice] 47#47: gracefully shutting down
+2022/04/25 02:29:33 [notice] 47#47: exiting
+2022/04/25 02:29:33 [notice] 47#47: exit
+2022/04/25 02:29:33 [notice] 1#1: signal 17 (SIGCHLD) received from 47
+2022/04/25 02:29:33 [notice] 1#1: worker process 47 exited with code 0
+2022/04/25 02:29:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/25 02:30:44 [notice] 54#54: signal process started
+2022/04/25 02:30:44 [notice] 1#1: signal 1 (SIGHUP) received from 54, reconfiguring
+2022/04/25 02:30:44 [notice] 1#1: reconfiguring
+2022/04/25 02:30:44 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:30:44 [notice] 1#1: start worker processes
+2022/04/25 02:30:44 [notice] 1#1: start worker process 55
+2022/04/25 02:30:44 [notice] 51#51: gracefully shutting down
+2022/04/25 02:30:44 [notice] 51#51: exiting
+2022/04/25 02:30:44 [notice] 51#51: exit
+2022/04/25 02:30:44 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2022/04/25 02:30:44 [notice] 1#1: worker process 51 exited with code 0
+2022/04/25 02:30:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/25 02:30:47 [error] 55#55: *3 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.25.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "mydomain.com"
+2022/04/25 02:31:09 [notice] 57#57: signal process started
+2022/04/25 02:31:09 [notice] 1#1: signal 1 (SIGHUP) received from 57, reconfiguring
+2022/04/25 02:31:09 [notice] 1#1: reconfiguring
+2022/04/25 02:31:09 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:31:09 [notice] 1#1: start worker processes
+2022/04/25 02:31:09 [notice] 1#1: start worker process 61
+2022/04/25 02:31:09 [notice] 55#55: gracefully shutting down
+2022/04/25 02:31:09 [notice] 55#55: exiting
+2022/04/25 02:31:09 [notice] 55#55: exit
+2022/04/25 02:31:09 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2022/04/25 02:31:09 [notice] 1#1: worker process 55 exited with code 0
+2022/04/25 02:31:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/25 02:32:10 [notice] 73#73: signal process started
+2022/04/25 02:32:10 [notice] 1#1: signal 1 (SIGHUP) received from 73, reconfiguring
+2022/04/25 02:32:10 [notice] 1#1: reconfiguring
+2022/04/25 02:32:10 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:32:10 [notice] 1#1: start worker processes
+2022/04/25 02:32:10 [notice] 1#1: start worker process 74
+2022/04/25 02:32:10 [notice] 61#61: gracefully shutting down
+2022/04/25 02:32:10 [notice] 61#61: exiting
+2022/04/25 02:32:10 [notice] 61#61: exit
+2022/04/25 02:32:10 [notice] 1#1: signal 17 (SIGCHLD) received from 61
+2022/04/25 02:32:10 [notice] 1#1: worker process 61 exited with code 0
+2022/04/25 02:32:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/25 02:32:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/25 02:32:20 [notice] 74#74: gracefully shutting down
+2022/04/25 02:32:20 [notice] 74#74: exiting
+2022/04/25 02:32:20 [notice] 74#74: exit
+2022/04/25 02:32:20 [notice] 1#1: signal 17 (SIGCHLD) received from 74
+2022/04/25 02:32:20 [notice] 1#1: worker process 74 exited with code 0
+2022/04/25 02:32:20 [notice] 1#1: exit
+2022/04/25 02:32:21 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:32:21 [notice] 1#1: nginx/1.21.6
+2022/04/25 02:32:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/25 02:32:21 [notice] 1#1: OS: Linux 4.4.0-210-generic
+2022/04/25 02:32:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/25 02:32:21 [notice] 1#1: start worker processes
+2022/04/25 02:32:21 [notice] 1#1: start worker process 20
+2022/04/25 02:32:53 [notice] 27#27: signal process started
+2022/04/25 02:32:53 [notice] 1#1: signal 1 (SIGHUP) received from 27, reconfiguring
+2022/04/25 02:32:53 [notice] 1#1: reconfiguring
+2022/04/25 02:32:53 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:32:53 [notice] 1#1: start worker processes
+2022/04/25 02:32:53 [notice] 1#1: start worker process 28
+2022/04/25 02:32:53 [notice] 20#20: gracefully shutting down
+2022/04/25 02:32:53 [notice] 20#20: exiting
+2022/04/25 02:32:53 [notice] 20#20: exit
+2022/04/25 02:32:53 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/04/25 02:32:53 [notice] 1#1: worker process 20 exited with code 0
+2022/04/25 02:32:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/25 02:32:58 [error] 28#28: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.25.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "mydomain.com"
+2022/04/25 02:33:24 [notice] 34#34: signal process started
+2022/04/25 02:33:24 [notice] 1#1: signal 1 (SIGHUP) received from 34, reconfiguring
+2022/04/25 02:33:24 [notice] 1#1: reconfiguring
+2022/04/25 02:33:24 [notice] 1#1: using the "epoll" event method
+2022/04/25 02:33:24 [notice] 1#1: start worker processes
+2022/04/25 02:33:24 [notice] 1#1: start worker process 35
+2022/04/25 02:33:24 [notice] 28#28: gracefully shutting down
+2022/04/25 02:33:24 [notice] 28#28: exiting
+2022/04/25 02:33:24 [notice] 28#28: exit
+2022/04/25 02:33:24 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/04/25 02:33:24 [notice] 1#1: worker process 28 exited with code 0
+2022/04/25 02:33:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/25 08:17:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/25 08:17:06 [notice] 35#35: gracefully shutting down
+2022/04/25 08:17:06 [notice] 35#35: exiting
+2022/04/25 08:17:06 [notice] 35#35: exit
+2022/04/25 08:17:06 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/04/25 08:17:06 [notice] 1#1: worker process 35 exited with code 0
+2022/04/25 08:17:06 [notice] 1#1: exit
