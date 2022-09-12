@@ -1,12 +1,13 @@
 # Demo app - developing with Docker
 
-This demo app shows a simple user profile app set up using
-- index.html with pure js and css styles
+This demo app shows a simple user profile app with docker using
+- index.html with js and css styles
 - nodejs backend with express module
 - mongodb for data storage
 
 This demo including nodejs, mongodb and mongo-express. It create frontend app and use mongodb as database
 To running this app, create mongodb and mongo-express container firstly. After that, start nodejs application.
+Notes, you must config `mongoUrl` for corresponding environment in `./app/server.js` before start node
 
 # I. With Docker
 
@@ -17,7 +18,7 @@ Step 1: Create docker network
     docker network create mongo-network
 
 
-Step 2: start mongodb
+Step 2: start mongodb container
 
     docker run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --net mongo-network mongo
 
@@ -33,7 +34,7 @@ Step 4: open mongo-express from browser
 
 Step 5: create `user-account`  _db_ and `users` _collection_ in mongo-express
 
-Step 6: Start your nodejs application locally - go to `app` directory of project
+Step 6: Start your nodejs application locally - go to `app` directory of project.
 
     npm install
     node server.js
