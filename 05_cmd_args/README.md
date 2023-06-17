@@ -1,3 +1,7 @@
+# CMD và ARGS
+ENTRYPOINT là command run khi mà khởi động container
+CMD là default parameter truyền vào ENTRYPOINT
+
 ## Default image of ubuntu
 docker run ubuntu
 
@@ -14,14 +18,14 @@ CMD ["/bin/bash"]
 CMD ["bash"]: listen input from terminal
 
 How do specify a different command to start conatainer
--> append the command: 
+-> append the command:
 ```bash
 docker run ubuntu [COMMAND]
 docker run ubuntu sleep 5
 ```
 -> sau khi chờ 5s sẽ exit -> vậy có cách nào để chạy lâu dài không?
 
-## Các kiểu chỉnh sửa command trong layer của docker image 
+## Các kiểu chỉnh sửa command trong layer của docker image
 CMD command1 param1         | CMD sleep 5
 
 CMD ["command1", "param1"]  | CMD ["sleep", "5"]
@@ -69,3 +73,8 @@ ENTRYPOINT ["sleep"]
 CMD ["5"]
 ```
 Nếu run command `docker run ubuntu-sleeper 10` thì CMD trong image sẽ bị overwrite
+
+### Case 4: trường hợp muốn thay thế default command nằm trong ENTRYPOINT:
+```bash
+docker run --name ubuntu-sleeper --entrypoint sleep2.0 ubuntu-sleeper 10
+```
